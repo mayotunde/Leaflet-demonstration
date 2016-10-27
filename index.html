@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Leaflet map in webpage hosted by github pages</title>
+<meta charset='utf-8' />
+<link rel='stylesheet' href='https://cdn.rawgit.com/mayotunde/Leaflet-demonstration/master/leaflet.css' />
+<script src='https://cdn.rawgit.com/mayotunde/Leaflet-demonstration/master/leaflet.js'></script>
+</head>
+
+<body style='background:fe0'>
+<script>
+var map = L.map('map').setView([6.44, 3.35], 8);
+
+L.tileLayer('https://{s}.tiles.stamen.com/Tonerlite/{z}/{x}/{y}.png').addTo(map);
+
+</script>
+</body>
+</html>
